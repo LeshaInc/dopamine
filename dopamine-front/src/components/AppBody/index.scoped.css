@@ -1,0 +1,10 @@
+.container {
+  flex: 1 1 auto;
+  overflow: scroll;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}

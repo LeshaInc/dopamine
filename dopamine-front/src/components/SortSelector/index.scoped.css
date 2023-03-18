@@ -1,0 +1,31 @@
+.root {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 4px;
+  user-select: none;
+}
+
+.button {
+  color: #105FDA;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  padding: 4px 16px;
+  border-top: 1px solid #D6D6FF;
+  cursor: pointer;
+  transition: background 100ms ease, color 100ms ease;
+}
+
+li:hover {
+  background: rgba(0, 0, 0, 0.05)
+}
+
+li:first-child {
+  border: none;
+}

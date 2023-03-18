@@ -1,0 +1,28 @@
+.content {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  gap: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px 16px 8px 16px;
+}
+
+.logo {
+  height: 40px;
+}
+
+.filler {
+  flex: 1 0 auto;
+}
+
+.sidelink {
+  font-size: 18px;
+  text-decoration: none;
+  color: #105FDA;
+  margin-bottom: 8px;
+}
+
+.sidelink.active {
+  text-decoration: underline;
+}

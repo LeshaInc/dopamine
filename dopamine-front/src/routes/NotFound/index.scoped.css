@@ -1,0 +1,21 @@
+h1 {
+  position: relative;
+  font-size: 100px;
+}
+
+h1 span {
+  display: block;
+  position: relative;
+  z-index: 100;
+}
+
+.fitter {
+  position: absolute;
+  left: -50vw;
+  right: -50vw;
+  top: 0;
+  bottom: 0px;
+  background: url("./fitter.svg");
+  background-size: auto 100%;
+  z-index: 0;
+}

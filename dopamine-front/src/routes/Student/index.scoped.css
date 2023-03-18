@@ -1,0 +1,104 @@
+h1 {
+  margin-bottom: 32px;
+  color: #000;
+}
+
+.card {
+  position: relative;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-bottom: 32px;
+}
+
+.card-bg {
+  border-bottom: 1px solid #999;
+  background-image: url("./background.svg");
+  width: 100%;
+  height: 120px;
+}
+
+.avatar {
+  position: absolute;
+  left: 30px;
+  top: 80px;
+  width: 140px;
+  height: 140px;
+  border-radius: 4px;
+  background-image: url("./avatar.png");
+  background-size: cover;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card-body {
+  padding: 16px 32px 32px 32px;
+}
+
+.card-right {
+  margin-left: 160px;
+  padding-bottom: 10px;
+  min-height: 90px;
+}
+
+.card-details {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 8px;
+}
+
+.name {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.group {
+  font-size: 20px;
+  color: #333;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  transition: all 120ms ease;
+}
+
+.group:hover {
+  text-decoration-color: #000;
+  color: #333;
+}
+
+.group svg {
+  vertical-align: middle;
+  margin-right: 8px;
+  padding-bottom: 4px;
+}
+
+.streams {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: baseline;
+  gap: 6px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+.streams h3 {
+  width: 100%;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.streams a {
+  padding: 4px 8px;
+  background: #f0f0f0;
+  border-radius: 4px;
+  color: #333;
+  text-decoration: none;
+  transition: all 120ms ease;
+}
+
+.streams a:hover {
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  color: #000;
+  background: #D1D8F4;
+}

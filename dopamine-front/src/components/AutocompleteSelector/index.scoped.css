@@ -1,0 +1,66 @@
+.button {
+  color: #105FDA;
+  cursor: pointer;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.button svg {
+  transform: translateY(2px);
+}
+
+ul {
+  list-style: none;
+  max-height: 300px;
+  overflow: hidden auto;
+}
+
+li {
+  padding: 4px 16px;
+  color: #666;
+  border-top: 1px solid #E6E6FF;
+  cursor: pointer;
+  transition: background 100ms ease, color 100ms ease;
+  overflow: hidden;
+  font-size: 14px;
+}
+li:hover, li:focus,
+.input:focus-within ~ ul li:first-child {
+  background: rgba(0, 0, 0, 0.05);
+  color: #000;
+  outline: none;
+}
+li:first-child {
+  border: none;
+}
+
+.input {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  border-bottom: 1px solid #D6D6FF;
+  padding: 0 8px 0 16px;
+  color: rgba(0, 0, 0, 0.4);
+  transition: color 200ms ease;
+}
+
+.input:focus-within {
+  color: #333;
+}
+
+input {
+  background: none;
+  border: none;
+  flex: 1 0 auto;
+  padding: 8px 0;
+  width: 50px;
+  color: #333;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+input:focus {
+  outline: none;
+}
+input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}

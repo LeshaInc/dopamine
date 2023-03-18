@@ -1,0 +1,48 @@
+h1, h2 {
+  color: #000;
+}
+
+h1 {
+  margin-bottom: 8px;
+}
+
+h2 {
+  margin-bottom: 32px;
+}
+
+.students {
+  width: 100%;
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  border-collapse: collapse;
+  border-style: hidden;
+}
+
+.students tr {
+  cursor: pointer;
+  transition: background-color 500ms ease;
+}
+.students tr:hover {
+  background: #f5f5f5;
+  color: #000;
+  transition: background-color 100ms ease;
+}
+
+.students td, .students th {
+  padding: 7px 16px;
+  border: 2px solid rgba(0, 0, 0, 0.05);
+  text-align: left;
+}
+.students td:first-child,
+.students th:first-child {
+  width: auto;
+}
+.students td:last-child,
+.students th:last-child {
+  width: 100%;
+}
+
+.aboba {
+  margin-top: 32px;
+}
